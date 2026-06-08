@@ -3,6 +3,6 @@ from streamlit_option_menu import option_menu
 st.title("My Live Application")
 with st.sidebar:
   data = option_menu(
-    menu_title = "My Apps",
+    menu_title = "My Project",
     options=["Home","About","Services"],
   )
